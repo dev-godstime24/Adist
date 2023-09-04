@@ -5,6 +5,15 @@
     font-family: 'Clash Display';
     scroll-behavior: smooth;
     max-width: 100%;
+    transition: .7s;
+}
+
+header {
+    background-image: url(img/bk.png);
+    width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo img {
@@ -67,7 +76,7 @@ a {
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: #000;
+    background: #1D203E;
 }
 
 .nav-menu {
@@ -96,6 +105,117 @@ a {
     transition: all 0.3s ease-in-out;
     background-color: #fff;
 }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.content-1 h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0px 10px;
+}
+
+.content-1 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'montserrat';
+    max-width: 720px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.first-border {
+    width: 90%;
+    height: 700px;
+    flex-shrink: 0;
+    border: 1px solid rgba(245, 19, 250, 0.03);
+    background: rgba(4, 9, 56, 0.40);
+    box-shadow: 0px 4px 20px 10px rgba(27, 27, 67, 0.50);
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+
+
+}
+
+.second-border {
+    width: 90%;
+    height: 431px;
+    flex-shrink: 0;
+    background: rgba(4, 9, 56, 0.45);
+    margin-top: 120px;
+}
+
+.all-form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    line-height: 80px;
+    gap: 150px;
+}
+
+.one input {
+    width: 317px;
+    color: #fff;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid rgba(237, 237, 237, 0.50);
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+
+}
+
+.two input {
+    width: 317px;
+    color: #fff;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid rgba(237, 237, 237, 0.50);
+    padding-bottom: 15px;
+    color: rgba(237, 237, 237, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.button-2 {
+    margin-right: 150px;
+    margin-top: 20px;
+    float: right;
+}
+
+.btn3 {
+    padding: 10px 12px;
+    background: transparent;
+    color: #FFF;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #C03EAC 0%, #25D7E2 100%);
+    border-image-slice: 1;
+
+}
+
+
 
 
 
@@ -152,6 +272,7 @@ a {
         padding: 10px 20px;
         margin-top: -20px;
     }
+
     .cnt-2 {
         display: block;
         align-items: center;
@@ -164,7 +285,7 @@ a {
         position: fixed;
         left: -100%;
         top: 70px;
-        height: 60vh;
+        height: 80vh;
         flex-direction: column;
         gap: 2rem;
         padding-bottom: 9rem;
@@ -187,5 +308,165 @@ a {
     .nav-menu.active {
         left: 0;
     }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:1025px) {}
+
+@media screen and (max-width:1024px) and (min-width:958px) {
+    .all-form {
+        gap: 90px;
+    }
+
+
+}
+
+@media screen and (max-width:957px) and (min-width:901px) {
+    .all-form {
+        gap: 70px;
+    }
+
+    .content-1 h1 {
+        font-size: 44px;
+    }
+
+    .content-1 p {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+
+    .one input {
+        width: 251px;
+        font-size: 14px;
+    }
+
+    .two input {
+        width: 251px;
+        font-size: 14px;
+
+
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:860px) {
+    .all-form {
+        gap: 50px;
+
+    }
+
+    .content-1 h1 {
+        font-size: 44px;
+    }
+
+    .content-1 p {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+
+    .one input {
+        width: 251px;
+        font-size: 14px;
+    }
+
+    .two input {
+        width: 251px;
+        font-size: 14px;
+
+
+    }
+}
+
+@media screen and (max-width:859px) and (min-width:769px) {
+    .all-form {
+        gap: 70px;
+    }
+
+    .content-1 h1 {
+        font-size: 40px;
+    }
+
+    .content-1 p {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+
+    .one input {
+        width: 251px;
+        font-size: 14px;
+    }
+
+    .two input {
+        width: 251px;
+        font-size: 14px;
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .all-form {
+        line-height: 30px;
+        display: block;
+        float: left;
+        padding: 0px 50px;
+        margin-top: 40px;
+    }
+
+    .content-1 h1 {
+        font-size: px;
+    }
+
+    .content-1 p {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+
+    .one input {
+        width: 470px;
+        font-size: 14px;
+
+    }
+
+    .two input {
+        width: 470px;
+        font-size: 14px;
+    }
+   
+
+}
+
+@media screen and (max-width:768px) {
+
+
+
+    .one input {
+        font-size: 12px;
+
+    }
+
+    .two input {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width:350px) {
+   .all-form{
+    list-style: 0;
+   }
+    .btn3 {
+        margin-left: 200px;
+    }
+
+    .one input {
+        font-size: 8px;
+
+    }
+
+    .two input {
+        font-size: 8px;
+    }
+   
 
 }
