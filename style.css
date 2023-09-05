@@ -5,7 +5,7 @@
     font-family: 'Clash Display';
     scroll-behavior: smooth;
     max-width: 100%;
-    transition: .7s;
+    transition: .5s;
 }
 
 header {
@@ -145,7 +145,7 @@ a {
     box-shadow: 0px 4px 20px 10px rgba(27, 27, 67, 0.50);
     display: flex;
     justify-content: center;
-    margin: 70px auto;
+    margin: 70px auto; 
 
 
 }
@@ -155,7 +155,7 @@ a {
     height: 431px;
     flex-shrink: 0;
     background: rgba(4, 9, 56, 0.45);
-    margin-top: 120px;
+    margin: 120px auto;
 }
 
 .all-form {
@@ -165,7 +165,6 @@ a {
     justify-content: center;
     padding-top: 80px;
     flex-wrap: wrap;
-    line-height: 80px;
     gap: 150px;
 }
 
@@ -180,6 +179,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
+    line-height: 50px;
 
 
 }
@@ -196,6 +196,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
+    line-height: 50px;
 
 }
 
@@ -332,7 +333,7 @@ a {
 
     .content-1 p {
         font-size: 15px;
-        padding: 10px 40px;
+        
     }
 
     .one input {
@@ -360,7 +361,7 @@ a {
 
     .content-1 p {
         font-size: 15px;
-        padding: 10px 40px;
+        
     }
 
     .one input {
@@ -387,17 +388,19 @@ a {
 
     .content-1 p {
         font-size: 15px;
-        padding: 10px 40px;
+        
     }
 
     .one input {
         width: 251px;
         font-size: 14px;
+     
     }
 
     .two input {
         width: 251px;
         font-size: 14px;
+        
 
 
     }
@@ -413,29 +416,47 @@ a {
     }
 
     .content-1 h1 {
-        font-size: px;
+        font-size: 38px;
+       
     }
 
     .content-1 p {
         font-size: 15px;
-        padding: 10px 40px;
+        padding: 10px 50px;
     }
 
     .one input {
         width: 470px;
         font-size: 14px;
+        line-height: 30px;
 
     }
 
     .two input {
         width: 470px;
         font-size: 14px;
+        line-height: 30px;
     }
    
 
 }
 
 @media screen and (max-width:768px) {
+
+
+
+    .one input {
+        font-size: 12px;
+
+    }
+
+    .two input {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
 
 
 
@@ -470,3 +491,18 @@ a {
    
 
 }
+
+@media screen and (max-width:320px) {
+   
+    .content-1 h1 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    .content-1 p {
+        font-size: 15px;
+        
+    }
+
+ 
+ }
